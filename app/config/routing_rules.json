@@ -1,0 +1,11 @@
+{
+  "medium_score": 35,
+  "high_score": 65,
+  "low_evidence_threshold": 2,
+  "high_impact_categories": ["ransomware", "exploits", "backdoors"],
+  "high_bytes_threshold": 1000000,
+  "medium_bytes_threshold": 100000,
+  "high_repeat_threshold": 10,
+  "medium_repeat_threshold": 5,
+  "low_confidence_threshold": 0.45
+}
