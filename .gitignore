@@ -1,0 +1,96 @@
+
+# =====================================
+# ENVIRONMENT VARIABLES AND SECRETS
+# =====================================
+.env
+.env.*
+# =====================================
+# PYTHON
+# =====================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =====================================
+# VIRTUAL ENVIRONMENTS
+# =====================================
+.venv/
+venv/
+env/
+ENV/
+
+# =====================================
+# DATABASE FILES
+# =====================================
+*.db
+*.sqlite
+*.sqlite3
+adaptive_soc.db
+
+# =====================================
+# RAG AND VECTOR DATABASE
+# =====================================
+chroma_db/
+**/chroma_db/
+*.parquet
+
+# =====================================
+# GENERATED DATASETS
+# =====================================
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# =====================================
+# LOGS AND GENERATED RESULTS
+# =====================================
+logs/
+*.log
+*.jsonl
+reports/generated/
+
+# =====================================
+# FRONTEND
+# =====================================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# =====================================
+# IDE AND EDITOR
+# =====================================
+.vscode/
+.idea/
+*.suo
+*.user
+*.code-workspace
+
+# =====================================
+# OPERATING SYSTEM
+# =====================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =====================================
+# TEMPORARY FILES
+# =====================================
+*.tmp
+*.temp
+*.bak
+*.swp

@@ -1,0 +1,49 @@
+{
+  "processed_at": "2026-11-18T06:40:10.448856Z",
+  "dataset_kind": "partitioned",
+  "files": [
+    {
+      "filename": "UNSW_NB15_training-set.csv",
+      "kind": "partitioned",
+      "rows_read": 82332,
+      "rows_kept": 82332
+    }
+  ],
+  "rows_in": 82332,
+  "rows_out": 82332,
+  "label_distribution": {
+    "normal": 37000,
+    "attack": 45332
+  },
+  "category_distribution": {
+    "Normal": 37000,
+    "Generic": 18871,
+    "Exploits": 11132,
+    "Fuzzers": 6062,
+    "DoS": 4089,
+    "Reconnaissance": 3496,
+    "Analysis": 677,
+    "Backdoor": 583,
+    "Shellcode": 378,
+    "Worms": 44
+  },
+  "has_ip_addresses": false,
+  "has_ports": false,
+  "has_timestamps": false,
+  "data_quality": {
+    "missing_column.srcip": 1,
+    "missing_column.dstip": 1,
+    "missing_column.sport": 1,
+    "missing_column.dsport": 1,
+    "missing_timestamps": 82332,
+    "non_binary_flags_binarized": 4
+  },
+  "filled_missing_values": {
+    "service": 47153
+  },
+  "notes": [
+    "No IP addresses in these files: alerts will have null source/destination IPs.",
+    "No port information in these files: alerts will have null ports.",
+    "No timestamps in these files: alerts will have null timestamps."
+  ]
+}

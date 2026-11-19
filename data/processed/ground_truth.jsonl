@@ -1,0 +1,10 @@
+{"alert_id":"ALR-000001","label":1,"attack_category":"DoS","original_category_value":"DoS","record_ref":"UNSW_NB15_training-set.csv#row 4475"}
+{"alert_id":"ALR-000002","label":1,"attack_category":"Exploits","original_category_value":"Exploits","record_ref":"UNSW_NB15_training-set.csv#row 14686"}
+{"alert_id":"ALR-000003","label":1,"attack_category":"Fuzzers","original_category_value":"Fuzzers","record_ref":"UNSW_NB15_training-set.csv#row 18312"}
+{"alert_id":"ALR-000004","label":1,"attack_category":"Worms","original_category_value":"Worms","record_ref":"UNSW_NB15_training-set.csv#row 23112"}
+{"alert_id":"ALR-000005","label":1,"attack_category":"Shellcode","original_category_value":"Shellcode","record_ref":"UNSW_NB15_training-set.csv#row 23329"}
+{"alert_id":"ALR-000006","label":1,"attack_category":"Reconnaissance","original_category_value":"Reconnaissance","record_ref":"UNSW_NB15_training-set.csv#row 34373"}
+{"alert_id":"ALR-000007","label":1,"attack_category":"Analysis","original_category_value":"Analysis","record_ref":"UNSW_NB15_training-set.csv#row 59219"}
+{"alert_id":"ALR-000008","label":1,"attack_category":"Backdoor","original_category_value":"Backdoor","record_ref":"UNSW_NB15_training-set.csv#row 63379"}
+{"alert_id":"ALR-000009","label":1,"attack_category":"Analysis","original_category_value":"Analysis","record_ref":"UNSW_NB15_training-set.csv#row 71405"}
+{"alert_id":"ALR-000010","label":1,"attack_category":"Generic","original_category_value":"Generic","record_ref":"UNSW_NB15_training-set.csv#row 81139"}

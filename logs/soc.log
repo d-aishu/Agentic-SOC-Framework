@@ -1,0 +1,582 @@
+2026-11-13 21:54:54,636 | INFO     | app.main | SOC workflow initialized (LLM enabled=False, PostgreSQL=True)
+2026-11-13 21:54:54,636 | INFO     | app.main | Adaptive Agentic Security Operations Centre v0.3.0 started
+2026-11-13 21:55:18,579 | INFO     | app.main | OPTIONS /api/v1/auth/login -> 200 (1 ms)
+2026-11-13 21:55:18,801 | INFO     | app.main | POST /api/v1/auth/login -> 401 (218 ms)
+2026-11-13 21:55:36,903 | INFO     | app.main | POST /api/v1/auth/login -> 401 (142 ms)
+2026-11-13 21:55:44,335 | INFO     | app.main | POST /api/v1/auth/login -> 401 (121 ms)
+2026-11-13 21:56:22,642 | INFO     | app.main | POST /api/v1/auth/login -> 200 (169 ms)
+2026-11-13 21:56:22,691 | INFO     | app.main | OPTIONS /api/v1/dashboard/summary -> 200 (1 ms)
+2026-11-13 21:56:22,693 | INFO     | app.main | OPTIONS /api/v1/dashboard/summary -> 200 (1 ms)
+2026-11-13 21:56:22,743 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (52 ms)
+2026-11-13 21:56:22,762 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (12 ms)
+2026-11-13 21:56:30,177 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (1 ms)
+2026-11-13 21:56:30,179 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (0 ms)
+2026-11-13 21:56:30,191 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (10 ms)
+2026-11-13 21:56:30,194 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (3 ms)
+2026-11-13 21:56:34,694 | INFO     | app.main | OPTIONS /api/v1/agents/activity -> 200 (1 ms)
+2026-11-13 21:56:34,696 | INFO     | app.main | OPTIONS /api/v1/agents/executions -> 200 (2 ms)
+2026-11-13 21:56:34,710 | INFO     | app.main | OPTIONS /api/v1/agents/executions -> 200 (14 ms)
+2026-11-13 21:56:34,710 | INFO     | app.main | OPTIONS /api/v1/agents/activity -> 200 (7 ms)
+2026-11-13 21:56:34,726 | INFO     | app.main | GET /api/v1/agents/executions -> 200 (19 ms)
+2026-11-13 21:56:34,734 | INFO     | app.main | GET /api/v1/agents/activity -> 200 (28 ms)
+2026-11-13 21:56:34,743 | INFO     | app.main | GET /api/v1/agents/executions -> 200 (11 ms)
+2026-11-13 21:56:34,743 | INFO     | app.main | GET /api/v1/agents/activity -> 200 (10 ms)
+2026-11-13 21:56:38,291 | INFO     | app.main | OPTIONS /api/v1/incidents -> 200 (1 ms)
+2026-11-13 21:56:38,293 | INFO     | app.main | OPTIONS /api/v1/incidents -> 200 (2 ms)
+2026-11-13 21:56:38,310 | INFO     | app.main | GET /api/v1/incidents -> 200 (16 ms)
+2026-11-13 21:56:38,318 | INFO     | app.main | GET /api/v1/incidents -> 200 (5 ms)
+2026-11-13 21:56:40,236 | INFO     | app.main | OPTIONS /api/v1/analytics/summary -> 200 (1 ms)
+2026-11-13 21:56:40,238 | INFO     | app.main | OPTIONS /api/v1/analytics/summary -> 200 (2 ms)
+2026-11-13 21:56:40,242 | INFO     | app.main | GET /api/v1/analytics/summary -> 200 (9 ms)
+2026-11-13 21:56:40,255 | INFO     | app.main | GET /api/v1/analytics/summary -> 200 (5 ms)
+2026-11-13 21:56:41,685 | INFO     | app.main | OPTIONS /api/v1/settings/status -> 200 (1 ms)
+2026-11-13 21:56:41,688 | INFO     | app.main | OPTIONS /api/v1/settings/status -> 200 (2 ms)
+2026-11-13 21:56:41,694 | INFO     | app.main | GET /api/v1/settings/status -> 200 (5 ms)
+2026-11-13 21:56:41,701 | INFO     | app.main | GET /api/v1/settings/status -> 200 (3 ms)
+2026-11-13 21:56:48,626 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (12 ms)
+2026-11-13 21:56:48,640 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (9 ms)
+2026-11-13 21:57:41,836 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (2 ms)
+2026-11-13 21:57:41,841 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (2 ms)
+2026-11-13 21:57:54,897 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (12 ms)
+2026-11-13 21:57:54,915 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (13 ms)
+2026-11-13 21:58:51,218 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (2 ms)
+2026-11-13 21:58:51,224 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (3 ms)
+2026-11-13 21:58:53,649 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (10 ms)
+2026-11-13 21:58:53,665 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (12 ms)
+2026-11-13 21:58:54,544 | INFO     | app.main | GET /api/v1/settings/status -> 200 (3 ms)
+2026-11-13 21:58:54,552 | INFO     | app.main | GET /api/v1/settings/status -> 200 (4 ms)
+2026-11-13 21:58:55,607 | INFO     | app.main | GET /api/v1/analytics/summary -> 200 (12 ms)
+2026-11-13 21:58:55,624 | INFO     | app.main | GET /api/v1/analytics/summary -> 200 (14 ms)
+2026-11-13 21:58:56,390 | INFO     | app.main | GET /api/v1/incidents -> 200 (7 ms)
+2026-11-13 21:58:56,399 | INFO     | app.main | GET /api/v1/incidents -> 200 (6 ms)
+2026-11-13 21:58:57,299 | INFO     | app.main | GET /api/v1/agents/activity -> 200 (11 ms)
+2026-11-13 21:58:57,303 | INFO     | app.main | GET /api/v1/agents/executions -> 200 (13 ms)
+2026-11-13 21:58:57,315 | INFO     | app.main | GET /api/v1/agents/activity -> 200 (10 ms)
+2026-11-13 21:58:57,316 | INFO     | app.main | GET /api/v1/agents/executions -> 200 (8 ms)
+2026-11-13 21:58:57,990 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (2 ms)
+2026-11-13 21:58:57,997 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (4 ms)
+2026-11-13 21:58:58,699 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (21 ms)
+2026-11-13 21:58:58,722 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (18 ms)
+2026-11-13 21:59:25,238 | INFO     | app.main | GET /docs -> 200 (1 ms)
+2026-11-13 21:59:26,014 | INFO     | app.main | GET /openapi.json -> 200 (170 ms)
+2026-11-13 22:07:57,754 | INFO     | app.main | POST /api/v1/auth/login -> 401 (10 ms)
+2026-11-13 22:08:27,553 | INFO     | app.main | POST /api/v1/auth/login -> 401 (2 ms)
+2026-11-13 22:08:54,366 | INFO     | app.main | POST /api/v1/auth/login -> 200 (297 ms)
+2026-11-13 22:10:08,739 | INFO     | app.main | GET /api/v1/auth/me -> 200 (6 ms)
+2026-11-13 22:12:58,268 | INFO     | app.main | POST /api/v1/auth/login -> 200 (279 ms)
+2026-11-13 22:33:57,884 | INFO     | app.main | SOC workflow initialized (LLM enabled=False, PostgreSQL=True)
+2026-11-13 22:33:57,884 | INFO     | app.main | Adaptive Agentic Security Operations Centre v0.3.0 started
+2026-11-13 22:34:25,751 | INFO     | app.main | OPTIONS /api/v1/dashboard/summary -> 200 (4 ms)
+2026-11-13 22:34:25,760 | INFO     | app.main | OPTIONS /api/v1/dashboard/summary -> 200 (5 ms)
+2026-11-13 22:34:25,960 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (195 ms)
+2026-11-13 22:34:25,992 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (25 ms)
+2026-11-13 22:36:27,474 | INFO     | app.main | GET /docs -> 200 (2 ms)
+2026-11-13 22:36:27,932 | INFO     | app.main | GET /openapi.json -> 200 (254 ms)
+2026-11-13 22:37:20,480 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (1 ms)
+2026-11-13 22:37:20,486 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (1 ms)
+2026-11-13 22:37:20,496 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (8 ms)
+2026-11-13 22:37:20,510 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (8 ms)
+2026-11-13 22:54:51,824 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (1 ms)
+2026-11-13 22:54:51,829 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (2 ms)
+2026-11-13 22:54:51,840 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (7 ms)
+2026-11-13 22:54:51,851 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (6 ms)
+2026-11-13 22:55:04,362 | INFO     | app.main | OPTIONS /api/v1/auth/login -> 400 (1 ms)
+2026-11-13 22:55:22,826 | INFO     | app.main | SOC workflow initialized (LLM enabled=False, PostgreSQL=True)
+2026-11-13 22:55:22,827 | INFO     | app.main | Adaptive Agentic Security Operations Centre v0.3.0 started
+2026-11-13 22:55:25,776 | INFO     | app.main | OPTIONS /api/v1/auth/login -> 400 (2 ms)
+2026-11-13 22:55:58,254 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (83 ms)
+2026-11-13 22:55:58,271 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (4 ms)
+2026-11-13 22:56:02,023 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (5 ms)
+2026-11-13 22:56:02,034 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (5 ms)
+2026-11-13 23:00:33,464 | INFO     | app.main | OPTIONS /api/v1/auth/login -> 200 (1 ms)
+2026-11-13 23:01:44,285 | INFO     | app.main | SOC workflow initialized (LLM enabled=False, PostgreSQL=True)
+2026-11-13 23:01:44,285 | INFO     | app.main | Adaptive Agentic Security Operations Centre v0.3.0 started
+2026-11-13 23:02:08,850 | INFO     | app.main | OPTIONS /api/v1/auth/login -> 400 (2 ms)
+2026-11-13 23:05:55,191 | INFO     | app.main | SOC workflow initialized (LLM enabled=False, PostgreSQL=True)
+2026-11-13 23:05:55,191 | INFO     | app.main | Adaptive Agentic Security Operations Centre v0.3.0 started
+2026-11-13 23:05:59,436 | INFO     | app.main | SOC workflow initialized (LLM enabled=False, PostgreSQL=True)
+2026-11-13 23:05:59,436 | INFO     | app.main | Adaptive Agentic Security Operations Centre v0.3.0 started
+2026-11-13 23:06:05,829 | INFO     | app.main | SOC workflow initialized (LLM enabled=False, PostgreSQL=True)
+2026-11-13 23:06:05,830 | INFO     | app.main | Adaptive Agentic Security Operations Centre v0.3.0 started
+2026-11-13 23:06:22,984 | INFO     | app.main | OPTIONS /api/v1/dashboard/summary -> 200 (2 ms)
+2026-11-13 23:06:22,985 | INFO     | app.main | OPTIONS /api/v1/dashboard/summary -> 200 (5 ms)
+2026-11-13 23:06:23,145 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (153 ms)
+2026-11-13 23:06:23,167 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (21 ms)
+2026-11-13 23:06:28,340 | INFO     | app.main | OPTIONS /api/v1/dataset/process -> 200 (1 ms)
+2026-11-13 23:06:29,076 | INFO     | app.dataset.loader | Loaded UNSW_NB15_training-set.csv (partitioned): 82332 rows x 45 cols
+2026-11-13 23:06:31,259 | INFO     | app.preprocessing.cleaner | Cleaned UNSW_NB15_training-set.csv: 82332 -> 82332 rows
+2026-11-13 23:06:31,459 | INFO     | app.preprocessing.pipeline | Processed 1 files: 82332 -> 82332 rows
+2026-11-13 23:06:33,309 | INFO     | app.main | POST /api/v1/dataset/process -> 200 (4965 ms)
+2026-11-13 23:06:33,317 | INFO     | app.main | OPTIONS /api/v1/alerts/generate -> 200 (1 ms)
+2026-11-13 23:06:33,644 | INFO     | app.alert_generation.generator | Generated 10 alerts (balanced sampling)
+2026-11-13 23:06:33,784 | INFO     | app.main | POST /api/v1/alerts/generate -> 200 (462 ms)
+2026-11-13 23:06:33,826 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (29 ms)
+2026-11-13 23:06:52,530 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (1 ms)
+2026-11-13 23:06:52,536 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (2 ms)
+2026-11-13 23:06:52,634 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (93 ms)
+2026-11-13 23:06:52,709 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (81 ms)
+2026-11-13 23:07:04,950 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (2 ms)
+2026-11-13 23:07:05,030 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (77 ms)
+2026-11-13 23:07:10,654 | INFO     | app.main | OPTIONS /api/v1/agents/activity -> 200 (1 ms)
+2026-11-13 23:07:10,658 | INFO     | app.main | OPTIONS /api/v1/agents/executions -> 200 (5 ms)
+2026-11-13 23:07:10,666 | INFO     | app.main | OPTIONS /api/v1/agents/activity -> 200 (13 ms)
+2026-11-13 23:07:10,676 | INFO     | app.main | OPTIONS /api/v1/agents/executions -> 200 (15 ms)
+2026-11-13 23:07:10,692 | INFO     | app.main | GET /api/v1/agents/activity -> 200 (36 ms)
+2026-11-13 23:07:10,708 | INFO     | app.main | GET /api/v1/agents/executions -> 200 (31 ms)
+2026-11-13 23:07:10,717 | INFO     | app.main | GET /api/v1/agents/activity -> 200 (13 ms)
+2026-11-13 23:07:10,725 | INFO     | app.main | GET /api/v1/agents/executions -> 200 (11 ms)
+2026-11-13 23:07:12,742 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (69 ms)
+2026-11-13 23:07:12,817 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (74 ms)
+2026-11-13 23:07:22,050 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (1 ms)
+2026-11-13 23:07:22,100 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (39 ms)
+2026-11-13 23:07:25,300 | INFO     | app.main | GET /api/v1/agents/activity -> 200 (15 ms)
+2026-11-13 23:07:25,300 | INFO     | app.main | GET /api/v1/agents/executions -> 200 (16 ms)
+2026-11-13 23:07:25,327 | INFO     | app.main | GET /api/v1/agents/executions -> 200 (14 ms)
+2026-11-13 23:07:25,327 | INFO     | app.main | GET /api/v1/agents/activity -> 200 (15 ms)
+2026-11-13 23:08:27,899 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (74 ms)
+2026-11-13 23:08:27,986 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (82 ms)
+2026-11-13 23:08:31,722 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000001/details -> 200 (1 ms)
+2026-11-13 23:08:31,728 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000001/details -> 200 (2 ms)
+2026-11-13 23:08:31,749 | INFO     | app.main | GET /api/v1/alerts/ALR-000001/details -> 200 (22 ms)
+2026-11-13 23:08:31,766 | INFO     | app.main | GET /api/v1/alerts/ALR-000001/details -> 200 (13 ms)
+2026-11-13 23:08:34,471 | INFO     | app.main | OPTIONS /api/v1/soc/analyze/ALR-000001 -> 200 (1 ms)
+2026-11-13 23:08:34,625 | INFO     | app.main | POST /api/v1/soc/analyze/ALR-000001 -> 200 (153 ms)
+2026-11-13 23:08:34,656 | INFO     | app.main | GET /api/v1/alerts/ALR-000001/details -> 200 (18 ms)
+2026-11-13 23:08:45,323 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (67 ms)
+2026-11-13 23:08:45,415 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (86 ms)
+2026-11-13 23:08:49,199 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000004/details -> 200 (2 ms)
+2026-11-13 23:08:49,206 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000004/details -> 200 (2 ms)
+2026-11-13 23:08:49,224 | INFO     | app.main | GET /api/v1/alerts/ALR-000004/details -> 200 (22 ms)
+2026-11-13 23:08:49,246 | INFO     | app.main | GET /api/v1/alerts/ALR-000004/details -> 200 (13 ms)
+2026-11-13 23:08:53,555 | INFO     | app.main | OPTIONS /api/v1/soc/analyze/ALR-000004 -> 200 (1 ms)
+2026-11-13 23:08:53,599 | INFO     | app.main | POST /api/v1/soc/analyze/ALR-000004 -> 500 (41 ms)
+2026-11-13 23:09:14,816 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (81 ms)
+2026-11-13 23:09:14,907 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (86 ms)
+2026-11-13 23:09:17,839 | INFO     | app.main | GET /api/v1/alerts/ALR-000001/details -> 200 (14 ms)
+2026-11-13 23:09:17,863 | INFO     | app.main | GET /api/v1/alerts/ALR-000001/details -> 200 (13 ms)
+2026-11-13 23:11:09,516 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (69 ms)
+2026-11-13 23:11:09,595 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (72 ms)
+2026-11-13 23:11:11,736 | INFO     | app.main | GET /api/v1/alerts/ALR-000004/details -> 200 (12 ms)
+2026-11-13 23:11:11,756 | INFO     | app.main | GET /api/v1/alerts/ALR-000004/details -> 200 (14 ms)
+2026-11-13 23:11:16,909 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (68 ms)
+2026-11-13 23:11:17,009 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (79 ms)
+2026-11-13 23:11:21,693 | INFO     | app.main | GET /api/v1/alerts/ALR-000001/details -> 200 (13 ms)
+2026-11-13 23:11:21,710 | INFO     | app.main | GET /api/v1/alerts/ALR-000001/details -> 200 (15 ms)
+2026-11-13 23:20:11,016 | INFO     | app.storage.dataset_store | Restored processed dataset (82332 rows) from disk
+2026-11-13 23:20:11,090 | INFO     | app.storage.alert_repository | Restored 10 alerts from disk
+2026-11-13 23:20:11,344 | INFO     | app.main | SOC workflow initialized (LLM enabled=False, PostgreSQL=True)
+2026-11-13 23:20:11,347 | INFO     | app.main | Adaptive Agentic Security Operations Centre v0.3.0 started
+2026-11-13 23:22:16,873 | INFO     | app.storage.dataset_store | Restored processed dataset (82332 rows) from disk
+2026-11-13 23:22:16,890 | INFO     | app.storage.alert_repository | Restored 10 alerts from disk
+2026-11-13 23:22:17,037 | INFO     | app.main | SOC workflow initialized (LLM enabled=False, PostgreSQL=True)
+2026-11-13 23:22:17,037 | INFO     | app.main | Adaptive Agentic Security Operations Centre v0.3.0 started
+2026-11-13 23:23:49,051 | INFO     | app.storage.dataset_store | Restored processed dataset (82332 rows) from disk
+2026-11-13 23:23:49,067 | INFO     | app.storage.alert_repository | Restored 10 alerts from disk
+2026-11-13 23:23:49,236 | INFO     | app.main | SOC workflow initialized (LLM enabled=False, PostgreSQL=True)
+2026-11-13 23:23:49,236 | INFO     | app.main | Adaptive Agentic Security Operations Centre v0.3.0 started
+2026-11-13 23:24:03,761 | INFO     | app.storage.dataset_store | Restored processed dataset (82332 rows) from disk
+2026-11-13 23:24:03,765 | INFO     | app.storage.alert_repository | Restored 10 alerts from disk
+2026-11-13 23:24:03,807 | INFO     | app.main | SOC workflow initialized (LLM enabled=False, PostgreSQL=True)
+2026-11-13 23:24:03,807 | INFO     | app.main | Adaptive Agentic Security Operations Centre v0.3.0 started
+2026-11-13 23:24:14,490 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000001/details -> 200 (3 ms)
+2026-11-13 23:24:14,490 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000001/details -> 200 (2 ms)
+2026-11-13 23:24:14,634 | INFO     | app.main | GET /api/v1/alerts/ALR-000001/details -> 200 (131 ms)
+2026-11-13 23:24:14,650 | INFO     | app.main | GET /api/v1/alerts/ALR-000001/details -> 200 (12 ms)
+2026-11-13 23:24:14,660 | INFO     | app.main | OPTIONS /api/v1/dashboard/summary -> 200 (1 ms)
+2026-11-13 23:24:14,666 | INFO     | app.main | OPTIONS /api/v1/dashboard/summary -> 200 (4 ms)
+2026-11-13 23:24:14,731 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (59 ms)
+2026-11-13 23:24:14,758 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (22 ms)
+2026-11-13 23:24:34,486 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000010/details -> 200 (1 ms)
+2026-11-13 23:24:34,489 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000010/details -> 200 (4 ms)
+2026-11-13 23:24:34,507 | INFO     | app.main | GET /api/v1/alerts/ALR-000010/details -> 200 (17 ms)
+2026-11-13 23:24:34,530 | INFO     | app.main | GET /api/v1/alerts/ALR-000010/details -> 200 (14 ms)
+2026-11-13 23:24:38,781 | INFO     | app.main | OPTIONS /api/v1/soc/analyze/ALR-000010 -> 200 (2 ms)
+2026-11-13 23:24:38,934 | INFO     | app.main | POST /api/v1/soc/analyze/ALR-000010 -> 200 (145 ms)
+2026-11-13 23:24:38,965 | INFO     | app.main | GET /api/v1/alerts/ALR-000010/details -> 200 (20 ms)
+2026-11-13 23:24:57,089 | INFO     | app.main | OPTIONS /api/v1/recommendations/5/approve -> 200 (1 ms)
+2026-11-13 23:24:57,131 | INFO     | app.main | POST /api/v1/recommendations/5/approve -> 200 (38 ms)
+2026-11-13 23:24:57,157 | INFO     | app.main | GET /api/v1/alerts/ALR-000010/details -> 200 (18 ms)
+2026-11-13 23:25:16,473 | INFO     | app.main | GET /api/v1/alerts/ALR-000001/details -> 200 (11 ms)
+2026-11-13 23:25:16,489 | INFO     | app.main | GET /api/v1/alerts/ALR-000001/details -> 200 (12 ms)
+2026-11-13 23:29:02,900 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (1 ms)
+2026-11-13 23:29:02,905 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (1 ms)
+2026-11-13 23:29:02,989 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (85 ms)
+2026-11-13 23:29:03,074 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (81 ms)
+2026-11-13 23:29:05,480 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000004/details -> 200 (3 ms)
+2026-11-13 23:29:05,482 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000004/details -> 200 (4 ms)
+2026-11-13 23:29:05,499 | INFO     | app.main | GET /api/v1/alerts/ALR-000004/details -> 200 (15 ms)
+2026-11-13 23:29:05,525 | INFO     | app.main | GET /api/v1/alerts/ALR-000004/details -> 200 (15 ms)
+2026-11-13 23:29:06,385 | INFO     | app.main | OPTIONS /api/v1/soc/analyze/ALR-000004 -> 200 (1 ms)
+2026-11-13 23:29:06,477 | INFO     | app.main | POST /api/v1/soc/analyze/ALR-000004 -> 200 (94 ms)
+2026-11-13 23:29:06,502 | INFO     | app.main | GET /api/v1/alerts/ALR-000004/details -> 200 (17 ms)
+2026-11-14 09:02:35,855 | INFO     | app.storage.dataset_store | Restored processed dataset (82332 rows) from disk
+2026-11-14 09:02:35,894 | INFO     | app.storage.alert_repository | Restored 10 alerts from disk
+2026-11-14 09:02:35,978 | INFO     | app.main | SOC workflow initialized (LLM enabled=False, PostgreSQL=True)
+2026-11-14 09:02:35,978 | INFO     | app.main | Adaptive Agentic Security Operations Centre v0.3.0 started
+2026-11-14 09:02:45,548 | INFO     | app.main | OPTIONS /api/v1/dashboard/summary -> 200 (2 ms)
+2026-11-14 09:02:45,548 | INFO     | app.main | OPTIONS /api/v1/dashboard/summary -> 200 (3 ms)
+2026-11-14 09:02:48,502 | INFO     | app.main | OPTIONS /api/v1/dataset/process -> 200 (0 ms)
+2026-11-14 09:08:25,362 | INFO     | app.storage.dataset_store | Restored processed dataset (82332 rows) from disk
+2026-11-14 09:08:25,363 | INFO     | app.storage.alert_repository | Restored 10 alerts from disk
+2026-11-14 09:08:25,397 | INFO     | app.main | SOC workflow initialized (LLM enabled=True, PostgreSQL=True)
+2026-11-14 09:08:25,397 | INFO     | app.main | Adaptive Agentic Security Operations Centre v0.3.0 started
+2026-11-14 09:11:08,910 | INFO     | app.storage.dataset_store | Restored processed dataset (82332 rows) from disk
+2026-11-14 09:11:08,910 | INFO     | app.storage.alert_repository | Restored 10 alerts from disk
+2026-11-14 09:11:08,970 | INFO     | app.main | SOC workflow initialized (LLM enabled=True, PostgreSQL=True)
+2026-11-14 09:11:08,970 | INFO     | app.main | Adaptive Agentic Security Operations Centre v0.3.0 started
+2026-11-14 09:11:13,926 | INFO     | app.main | GET /api/v1/dashboard/summary -> 401 (43 ms)
+2026-11-14 09:11:13,944 | INFO     | app.main | GET /api/v1/dashboard/summary -> 401 (2 ms)
+2026-11-14 09:11:30,884 | INFO     | app.main | OPTIONS /api/v1/auth/login -> 200 (0 ms)
+2026-11-14 09:11:31,101 | INFO     | app.main | POST /api/v1/auth/login -> 200 (215 ms)
+2026-11-14 09:11:31,193 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (49 ms)
+2026-11-14 09:11:31,214 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (17 ms)
+2026-11-14 09:11:38,192 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000010/details -> 200 (1 ms)
+2026-11-14 09:11:38,197 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000010/details -> 200 (2 ms)
+2026-11-14 09:11:38,269 | INFO     | app.main | GET /api/v1/alerts/ALR-000010/details -> 200 (76 ms)
+2026-11-14 09:11:38,313 | INFO     | app.main | GET /api/v1/alerts/ALR-000010/details -> 200 (38 ms)
+2026-11-14 09:11:49,293 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (0 ms)
+2026-11-14 09:11:49,295 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (0 ms)
+2026-11-14 09:11:49,348 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (49 ms)
+2026-11-14 09:11:49,402 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (52 ms)
+2026-11-14 09:11:51,869 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000002/details -> 200 (1 ms)
+2026-11-14 09:11:51,870 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000002/details -> 200 (2 ms)
+2026-11-14 09:11:51,878 | INFO     | app.main | GET /api/v1/alerts/ALR-000002/details -> 200 (6 ms)
+2026-11-14 09:11:51,888 | INFO     | app.main | GET /api/v1/alerts/ALR-000002/details -> 200 (7 ms)
+2026-11-14 09:11:53,062 | INFO     | app.main | OPTIONS /api/v1/soc/analyze/ALR-000002 -> 200 (0 ms)
+2026-11-14 09:11:59,368 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:11:59,373 | INFO     | openai._base_client | Retrying request in 0.393528 seconds (retry 1 of 2)
+2026-11-14 09:12:00,384 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:00,384 | INFO     | openai._base_client | Retrying request in 0.974098 seconds (retry 2 of 2)
+2026-11-14 09:12:01,963 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:02,673 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:02,675 | INFO     | openai._base_client | Retrying request in 0.375007 seconds (retry 1 of 2)
+2026-11-14 09:12:03,818 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:03,882 | INFO     | openai._base_client | Retrying request in 0.934374 seconds (retry 2 of 2)
+2026-11-14 09:12:05,527 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:15,406 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:15,422 | INFO     | openai._base_client | Retrying request in 0.477805 seconds (retry 1 of 2)
+2026-11-14 09:12:16,440 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:16,441 | INFO     | openai._base_client | Retrying request in 0.766554 seconds (retry 2 of 2)
+2026-11-14 09:12:17,434 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:18,168 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:18,169 | INFO     | openai._base_client | Retrying request in 0.388360 seconds (retry 1 of 2)
+2026-11-14 09:12:18,862 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:18,863 | INFO     | openai._base_client | Retrying request in 0.829845 seconds (retry 2 of 2)
+2026-11-14 09:12:20,308 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:20,621 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:20,622 | INFO     | openai._base_client | Retrying request in 0.476197 seconds (retry 1 of 2)
+2026-11-14 09:12:21,400 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:21,400 | INFO     | openai._base_client | Retrying request in 0.982799 seconds (retry 2 of 2)
+2026-11-14 09:12:23,004 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:23,320 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:23,320 | INFO     | openai._base_client | Retrying request in 0.404121 seconds (retry 1 of 2)
+2026-11-14 09:12:24,047 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:24,048 | INFO     | openai._base_client | Retrying request in 0.924163 seconds (retry 2 of 2)
+2026-11-14 09:12:25,274 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:25,609 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:25,609 | INFO     | openai._base_client | Retrying request in 0.485280 seconds (retry 1 of 2)
+2026-11-14 09:12:25,758 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:25,758 | INFO     | openai._base_client | Retrying request in 0.469552 seconds (retry 1 of 2)
+2026-11-14 09:12:26,408 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:26,410 | INFO     | openai._base_client | Retrying request in 0.950174 seconds (retry 2 of 2)
+2026-11-14 09:12:26,458 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:26,458 | INFO     | openai._base_client | Retrying request in 0.913458 seconds (retry 2 of 2)
+2026-11-14 09:12:27,583 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:27,659 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:28,261 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:28,262 | INFO     | openai._base_client | Retrying request in 0.432939 seconds (retry 1 of 2)
+2026-11-14 09:12:29,292 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:29,292 | INFO     | openai._base_client | Retrying request in 0.997424 seconds (retry 2 of 2)
+2026-11-14 09:12:30,606 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:30,904 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:30,904 | INFO     | openai._base_client | Retrying request in 0.478876 seconds (retry 1 of 2)
+2026-11-14 09:12:31,691 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:31,700 | INFO     | openai._base_client | Retrying request in 0.890622 seconds (retry 2 of 2)
+2026-11-14 09:12:32,904 | INFO     | httpx2 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-14 09:12:32,992 | INFO     | app.main | POST /api/v1/soc/analyze/ALR-000002 -> 200 (39935 ms)
+2026-11-16 10:50:27,446 | INFO     | app.storage.dataset_store | Restored processed dataset (82332 rows) from disk
+2026-11-16 10:50:27,461 | INFO     | app.storage.alert_repository | Restored 10 alerts from disk
+2026-11-16 10:50:27,520 | INFO     | app.main | SOC workflow initialized (LLM enabled=False, PostgreSQL=True)
+2026-11-16 10:50:27,520 | INFO     | app.main | Adaptive Agentic Security Operations Centre v0.3.0 started
+2026-11-16 10:50:59,116 | INFO     | app.main | OPTIONS /api/v1/dashboard/summary -> 200 (0 ms)
+2026-11-16 10:50:59,116 | INFO     | app.main | OPTIONS /api/v1/dashboard/summary -> 200 (1 ms)
+2026-11-16 10:50:59,176 | INFO     | app.main | GET /api/v1/dashboard/summary -> 401 (58 ms)
+2026-11-16 10:50:59,181 | INFO     | app.main | GET /api/v1/dashboard/summary -> 401 (2 ms)
+2026-11-16 10:51:13,180 | INFO     | app.main | OPTIONS /api/v1/auth/login -> 200 (1 ms)
+2026-11-16 10:51:13,280 | INFO     | app.main | POST /api/v1/auth/login -> 200 (97 ms)
+2026-11-16 10:51:13,371 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (59 ms)
+2026-11-16 10:51:13,383 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (10 ms)
+2026-11-16 10:51:23,532 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000008/details -> 200 (1 ms)
+2026-11-16 10:51:23,536 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000008/details -> 200 (1 ms)
+2026-11-16 10:51:23,565 | INFO     | app.main | GET /api/v1/alerts/ALR-000008/details -> 200 (30 ms)
+2026-11-16 10:51:23,574 | INFO     | app.main | GET /api/v1/alerts/ALR-000008/details -> 200 (7 ms)
+2026-11-16 10:51:27,097 | INFO     | app.main | OPTIONS /api/v1/soc/analyze/ALR-000008 -> 200 (0 ms)
+2026-11-16 10:51:30,971 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-16 10:51:31,926 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-16 10:51:32,294 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-16 10:51:33,573 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-16 10:51:33,631 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-16 10:51:33,695 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-16 10:51:33,772 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-16 10:51:33,774 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-16 10:51:33,821 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-16 10:51:33,882 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-16 10:51:33,983 | INFO     | app.main | POST /api/v1/soc/analyze/ALR-000008 -> 200 (6883 ms)
+2026-11-16 10:51:33,993 | INFO     | app.main | GET /api/v1/alerts/ALR-000008/details -> 200 (9 ms)
+2026-11-16 10:53:05,528 | INFO     | app.main | OPTIONS /api/v1/recommendations/8/approve -> 200 (0 ms)
+2026-11-16 10:53:05,560 | INFO     | app.main | POST /api/v1/recommendations/8/approve -> 200 (28 ms)
+2026-11-16 10:53:05,579 | INFO     | app.main | GET /api/v1/alerts/ALR-000008/details -> 200 (16 ms)
+2026-11-16 10:53:15,727 | INFO     | app.main | OPTIONS /api/v1/recommendations/9/approve -> 200 (0 ms)
+2026-11-16 10:53:15,769 | INFO     | app.main | POST /api/v1/recommendations/9/approve -> 200 (44 ms)
+2026-11-16 10:53:15,796 | INFO     | app.main | GET /api/v1/alerts/ALR-000008/details -> 200 (14 ms)
+2026-11-16 10:53:19,834 | INFO     | app.main | OPTIONS /api/v1/recommendations/10/approve -> 200 (1 ms)
+2026-11-16 10:53:19,862 | INFO     | app.main | POST /api/v1/recommendations/10/approve -> 200 (25 ms)
+2026-11-16 10:53:19,877 | INFO     | app.main | GET /api/v1/alerts/ALR-000008/details -> 200 (11 ms)
+2026-11-16 10:53:24,919 | INFO     | app.main | OPTIONS /api/v1/recommendations/11/approve -> 200 (1 ms)
+2026-11-16 10:53:24,948 | INFO     | app.main | POST /api/v1/recommendations/11/approve -> 200 (28 ms)
+2026-11-16 10:53:24,960 | INFO     | app.main | GET /api/v1/alerts/ALR-000008/details -> 200 (12 ms)
+2026-11-16 10:53:28,030 | INFO     | app.main | OPTIONS /api/v1/recommendations/12/approve -> 200 (1 ms)
+2026-11-16 10:53:28,052 | INFO     | app.main | POST /api/v1/recommendations/12/approve -> 200 (23 ms)
+2026-11-16 10:53:28,077 | INFO     | app.main | GET /api/v1/alerts/ALR-000008/details -> 200 (13 ms)
+2026-11-16 10:53:33,546 | INFO     | app.main | OPTIONS /api/v1/recommendations/13/approve -> 200 (0 ms)
+2026-11-16 10:53:33,580 | INFO     | app.main | POST /api/v1/recommendations/13/approve -> 200 (31 ms)
+2026-11-16 10:53:33,594 | INFO     | app.main | GET /api/v1/alerts/ALR-000008/details -> 200 (9 ms)
+2026-11-16 11:06:24,925 | INFO     | app.storage.dataset_store | Restored processed dataset (82332 rows) from disk
+2026-11-16 11:06:24,925 | INFO     | app.storage.alert_repository | Restored 10 alerts from disk
+2026-11-16 11:06:24,957 | INFO     | app.main | SOC workflow initialized (LLM enabled=False, PostgreSQL=True)
+2026-11-16 11:06:24,957 | INFO     | app.main | Adaptive Agentic Security Operations Centre v0.3.0 started
+2026-11-16 11:06:46,497 | INFO     | app.main | OPTIONS /api/v1/dashboard/summary -> 200 (1 ms)
+2026-11-16 11:06:46,500 | INFO     | app.main | OPTIONS /api/v1/dashboard/summary -> 200 (1 ms)
+2026-11-16 11:06:46,582 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (79 ms)
+2026-11-16 11:06:46,602 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (17 ms)
+2026-11-16 11:06:49,139 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (12 ms)
+2026-11-16 11:06:49,148 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (11 ms)
+2026-11-16 11:07:00,296 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000008/details -> 200 (1 ms)
+2026-11-16 11:07:00,297 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000008/details -> 200 (1 ms)
+2026-11-16 11:07:00,315 | INFO     | app.main | GET /api/v1/alerts/ALR-000008/details -> 200 (20 ms)
+2026-11-16 11:07:00,334 | INFO     | app.main | GET /api/v1/alerts/ALR-000008/details -> 200 (10 ms)
+2026-11-16 11:07:12,157 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (1 ms)
+2026-11-16 11:07:12,159 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (0 ms)
+2026-11-16 11:07:12,198 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (47 ms)
+2026-11-16 11:07:12,251 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (42 ms)
+2026-11-16 11:07:14,561 | INFO     | app.main | GET /api/v1/alerts/ALR-000008/details -> 200 (10 ms)
+2026-11-16 11:07:14,573 | INFO     | app.main | GET /api/v1/alerts/ALR-000008/details -> 200 (8 ms)
+2026-11-16 11:07:18,743 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (41 ms)
+2026-11-16 11:07:18,787 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (41 ms)
+2026-11-16 11:07:23,011 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000010/details -> 200 (1 ms)
+2026-11-16 11:07:23,013 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000010/details -> 200 (1 ms)
+2026-11-16 11:07:23,024 | INFO     | app.main | GET /api/v1/alerts/ALR-000010/details -> 200 (7 ms)
+2026-11-16 11:07:23,034 | INFO     | app.main | GET /api/v1/alerts/ALR-000010/details -> 200 (7 ms)
+2026-11-16 11:07:31,480 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (41 ms)
+2026-11-16 11:07:31,521 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (41 ms)
+2026-11-16 11:07:34,416 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000003/details -> 200 (1 ms)
+2026-11-16 11:07:34,417 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000003/details -> 200 (2 ms)
+2026-11-16 11:07:34,426 | INFO     | app.main | GET /api/v1/alerts/ALR-000003/details -> 200 (8 ms)
+2026-11-16 11:07:34,436 | INFO     | app.main | GET /api/v1/alerts/ALR-000003/details -> 200 (6 ms)
+2026-11-16 11:07:37,250 | INFO     | app.main | OPTIONS /api/v1/soc/analyze/ALR-000003 -> 200 (0 ms)
+2026-11-16 11:07:42,124 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-16 11:07:43,751 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-16 11:07:44,372 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-16 11:07:44,455 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-16 11:07:45,398 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-16 11:07:45,462 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-16 11:07:45,539 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-16 11:07:45,543 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-16 11:07:45,596 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-16 11:07:45,665 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-16 11:07:45,723 | INFO     | app.main | POST /api/v1/soc/analyze/ALR-000003 -> 200 (8470 ms)
+2026-11-16 11:07:45,746 | INFO     | app.main | GET /api/v1/alerts/ALR-000003/details -> 200 (11 ms)
+2026-11-16 11:23:25,862 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000003/details -> 200 (1 ms)
+2026-11-16 11:23:25,864 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000003/details -> 200 (0 ms)
+2026-11-16 11:23:25,872 | INFO     | app.main | GET /api/v1/alerts/ALR-000003/details -> 200 (7 ms)
+2026-11-16 11:23:25,887 | INFO     | app.main | GET /api/v1/alerts/ALR-000003/details -> 200 (10 ms)
+2026-11-16 12:11:33,580 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000003/details -> 200 (1 ms)
+2026-11-16 12:11:33,584 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000003/details -> 200 (2 ms)
+2026-11-16 12:11:33,611 | INFO     | app.main | GET /api/v1/alerts/ALR-000003/details -> 200 (20 ms)
+2026-11-16 12:11:33,658 | INFO     | app.main | GET /api/v1/alerts/ALR-000003/details -> 200 (39 ms)
+2026-11-16 12:11:39,243 | INFO     | app.main | OPTIONS /api/v1/dashboard/summary -> 200 (1 ms)
+2026-11-16 12:11:39,250 | INFO     | app.main | OPTIONS /api/v1/dashboard/summary -> 200 (1 ms)
+2026-11-16 12:11:39,298 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (42 ms)
+2026-11-16 12:11:39,363 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (28 ms)
+2026-11-16 12:11:42,197 | INFO     | app.main | OPTIONS /api/v1/dataset/process -> 200 (1 ms)
+2026-11-16 12:11:43,089 | INFO     | app.dataset.loader | Loaded UNSW_NB15_training-set.csv (partitioned): 82332 rows x 45 cols
+2026-11-16 12:11:45,232 | INFO     | app.preprocessing.cleaner | Cleaned UNSW_NB15_training-set.csv: 82332 -> 82332 rows
+2026-11-16 12:11:45,564 | INFO     | app.preprocessing.pipeline | Processed 1 files: 82332 -> 82332 rows
+2026-11-16 12:11:46,505 | INFO     | app.main | POST /api/v1/dataset/process -> 200 (4303 ms)
+2026-11-16 12:11:46,515 | INFO     | app.main | OPTIONS /api/v1/alerts/generate -> 200 (1 ms)
+2026-11-16 12:11:46,931 | INFO     | app.alert_generation.generator | Generated 10 alerts (balanced sampling)
+2026-11-16 12:11:47,046 | INFO     | app.main | POST /api/v1/alerts/generate -> 200 (525 ms)
+2026-11-16 12:11:47,087 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (29 ms)
+2026-11-16 12:11:53,372 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (2 ms)
+2026-11-16 12:11:53,381 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (2 ms)
+2026-11-16 12:11:53,520 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (122 ms)
+2026-11-16 12:11:53,631 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (107 ms)
+2026-11-16 12:11:59,797 | INFO     | app.main | OPTIONS /api/v1/agents/activity -> 200 (1 ms)
+2026-11-16 12:11:59,806 | INFO     | app.main | OPTIONS /api/v1/agents/activity -> 200 (3 ms)
+2026-11-16 12:11:59,806 | INFO     | app.main | OPTIONS /api/v1/agents/executions -> 200 (6 ms)
+2026-11-16 12:11:59,806 | INFO     | app.main | OPTIONS /api/v1/agents/executions -> 200 (12 ms)
+2026-11-16 12:11:59,837 | INFO     | app.main | GET /api/v1/agents/activity -> 200 (32 ms)
+2026-11-16 12:11:59,853 | INFO     | app.main | GET /api/v1/agents/executions -> 200 (38 ms)
+2026-11-16 12:11:59,869 | INFO     | app.main | GET /api/v1/agents/activity -> 200 (28 ms)
+2026-11-16 12:11:59,892 | INFO     | app.main | GET /api/v1/agents/executions -> 200 (25 ms)
+2026-11-16 12:12:39,046 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (84 ms)
+2026-11-16 12:12:39,169 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (109 ms)
+2026-11-16 12:22:25,012 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000003/details -> 200 (1 ms)
+2026-11-16 12:22:25,012 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000003/details -> 200 (0 ms)
+2026-11-16 12:22:25,023 | INFO     | app.main | GET /api/v1/alerts/ALR-000003/details -> 200 (9 ms)
+2026-11-16 12:22:25,039 | INFO     | app.main | GET /api/v1/alerts/ALR-000003/details -> 200 (8 ms)
+2026-11-16 12:22:25,089 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (1 ms)
+2026-11-16 12:22:25,091 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (2 ms)
+2026-11-16 12:22:25,130 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (42 ms)
+2026-11-16 12:22:25,156 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (25 ms)
+2026-11-16 12:28:24,117 | INFO     | app.main | GET /docs -> 200 (1 ms)
+2026-11-16 12:28:25,463 | INFO     | app.main | GET /openapi.json -> 200 (407 ms)
+2026-11-16 12:28:54,938 | INFO     | app.main | GET /api/v1/alerts/ALR-000003 -> 200 (7 ms)
+2026-11-17 10:14:27,499 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (8 ms)
+2026-11-17 10:14:27,504 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (11 ms)
+2026-11-17 10:14:27,535 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 401 (28 ms)
+2026-11-17 10:14:27,540 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 401 (2 ms)
+2026-11-18 10:48:52,352 | INFO     | app.storage.dataset_store | Restored processed dataset (82332 rows) from disk
+2026-11-18 10:48:52,371 | INFO     | app.storage.alert_repository | Restored 10 alerts from disk
+2026-11-18 10:48:52,435 | INFO     | app.main | SOC workflow initialized (LLM enabled=False, PostgreSQL=True)
+2026-11-18 10:48:52,435 | INFO     | app.main | Adaptive Agentic Security Operations Centre v0.3.0 started
+2026-11-18 10:49:38,827 | INFO     | app.main | OPTIONS /api/v1/auth/login -> 200 (1 ms)
+2026-11-18 10:49:39,089 | INFO     | app.main | POST /api/v1/auth/login -> 401 (259 ms)
+2026-11-18 10:49:48,797 | INFO     | app.main | POST /api/v1/auth/login -> 401 (124 ms)
+2026-11-18 10:50:05,049 | INFO     | app.main | POST /api/v1/auth/login -> 200 (176 ms)
+2026-11-18 10:50:05,117 | INFO     | app.main | OPTIONS /api/v1/dashboard/summary -> 200 (1 ms)
+2026-11-18 10:50:05,124 | INFO     | app.main | OPTIONS /api/v1/dashboard/summary -> 200 (1 ms)
+2026-11-18 10:50:05,201 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (76 ms)
+2026-11-18 10:50:05,218 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (13 ms)
+2026-11-18 10:50:08,482 | INFO     | app.main | OPTIONS /api/v1/dataset/process -> 200 (0 ms)
+2026-11-18 10:50:08,862 | INFO     | app.dataset.loader | Loaded UNSW_NB15_training-set.csv (partitioned): 82332 rows x 45 cols
+2026-11-18 10:50:09,786 | INFO     | app.preprocessing.cleaner | Cleaned UNSW_NB15_training-set.csv: 82332 -> 82332 rows
+2026-11-18 10:50:09,899 | INFO     | app.preprocessing.pipeline | Processed 1 files: 82332 -> 82332 rows
+2026-11-18 10:50:10,297 | INFO     | app.main | POST /api/v1/dataset/process -> 200 (1808 ms)
+2026-11-18 10:50:10,301 | INFO     | app.main | OPTIONS /api/v1/alerts/generate -> 200 (0 ms)
+2026-11-18 10:50:10,416 | INFO     | app.alert_generation.generator | Generated 10 alerts (balanced sampling)
+2026-11-18 10:50:10,452 | INFO     | app.main | POST /api/v1/alerts/generate -> 200 (149 ms)
+2026-11-18 10:50:10,467 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (10 ms)
+2026-11-18 10:50:31,429 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000010/details -> 200 (0 ms)
+2026-11-18 10:50:31,431 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000010/details -> 200 (0 ms)
+2026-11-18 10:50:31,459 | INFO     | app.main | GET /api/v1/alerts/ALR-000010/details -> 200 (20 ms)
+2026-11-18 10:50:31,472 | INFO     | app.main | GET /api/v1/alerts/ALR-000010/details -> 200 (11 ms)
+2026-11-18 10:50:36,215 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (1 ms)
+2026-11-18 10:50:36,216 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (1 ms)
+2026-11-18 10:50:36,261 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (43 ms)
+2026-11-18 10:50:36,321 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (59 ms)
+2026-11-18 10:50:42,275 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000005/details -> 200 (1 ms)
+2026-11-18 10:50:42,283 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000005/details -> 200 (2 ms)
+2026-11-18 10:50:42,295 | INFO     | app.main | GET /api/v1/alerts/ALR-000005/details -> 200 (12 ms)
+2026-11-18 10:50:42,309 | INFO     | app.main | GET /api/v1/alerts/ALR-000005/details -> 200 (12 ms)
+2026-11-18 10:50:46,161 | INFO     | app.main | OPTIONS /api/v1/soc/analyze/ALR-000005 -> 200 (0 ms)
+2026-11-18 10:50:52,137 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-18 10:50:52,298 | INFO     | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-11-18 10:50:53,565 | INFO     | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-18 10:50:54,959 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-18 10:50:55,038 | INFO     | app.main | POST /api/v1/soc/analyze/ALR-000005 -> 200 (8875 ms)
+2026-11-18 10:50:55,049 | INFO     | app.main | GET /api/v1/alerts/ALR-000005/details -> 200 (8 ms)
+2026-11-18 10:59:20,027 | INFO     | app.main | OPTIONS /api/v1/recommendations/14/approve -> 200 (0 ms)
+2026-11-18 10:59:20,068 | INFO     | app.main | POST /api/v1/recommendations/14/approve -> 200 (36 ms)
+2026-11-18 10:59:20,093 | INFO     | app.main | GET /api/v1/alerts/ALR-000005/details -> 200 (19 ms)
+2026-11-18 10:59:22,105 | INFO     | app.main | OPTIONS /api/v1/recommendations/15/approve -> 200 (0 ms)
+2026-11-18 10:59:22,142 | INFO     | app.main | POST /api/v1/recommendations/15/approve -> 200 (34 ms)
+2026-11-18 10:59:22,155 | INFO     | app.main | GET /api/v1/alerts/ALR-000005/details -> 200 (7 ms)
+2026-11-18 10:59:26,481 | INFO     | app.main | OPTIONS /api/v1/recommendations/16/approve -> 200 (1 ms)
+2026-11-18 10:59:26,521 | INFO     | app.main | POST /api/v1/recommendations/16/approve -> 200 (38 ms)
+2026-11-18 10:59:26,551 | INFO     | app.main | GET /api/v1/alerts/ALR-000005/details -> 200 (20 ms)
+2026-11-18 10:59:28,390 | INFO     | app.main | OPTIONS /api/v1/recommendations/17/approve -> 200 (1 ms)
+2026-11-18 10:59:28,417 | INFO     | app.main | POST /api/v1/recommendations/17/approve -> 200 (25 ms)
+2026-11-18 10:59:28,465 | INFO     | app.main | GET /api/v1/alerts/ALR-000005/details -> 200 (35 ms)
+2026-11-18 11:25:40,174 | INFO     | app.storage.dataset_store | Restored processed dataset (82332 rows) from disk
+2026-11-18 11:25:40,195 | INFO     | app.storage.alert_repository | Restored 10 alerts from disk
+2026-11-18 11:25:40,291 | INFO     | app.main | SOC workflow initialized (LLM enabled=False, PostgreSQL=True)
+2026-11-18 11:25:40,293 | INFO     | app.main | Adaptive Agentic Security Operations Centre v0.3.0 started
+2026-11-18 11:29:54,394 | INFO     | app.storage.dataset_store | Restored processed dataset (82332 rows) from disk
+2026-11-18 11:29:54,396 | INFO     | app.storage.alert_repository | Restored 10 alerts from disk
+2026-11-18 11:29:54,522 | INFO     | app.main | SOC workflow initialized (LLM enabled=False, PostgreSQL=True)
+2026-11-18 11:29:54,523 | INFO     | app.main | Adaptive Agentic Security Operations Centre v0.3.0 started
+2026-11-18 11:34:20,505 | INFO     | app.storage.dataset_store | Restored processed dataset (82332 rows) from disk
+2026-11-18 11:34:20,507 | INFO     | app.storage.alert_repository | Restored 10 alerts from disk
+2026-11-18 11:34:20,549 | INFO     | app.main | SOC workflow initialized (LLM enabled=False, PostgreSQL=True)
+2026-11-18 11:34:20,550 | INFO     | app.main | Adaptive Agentic Security Operations Centre v0.3.0 started
+2026-11-18 12:09:54,093 | INFO     | app.storage.dataset_store | Restored processed dataset (82332 rows) from disk
+2026-11-18 12:09:54,097 | INFO     | app.storage.alert_repository | Restored 10 alerts from disk
+2026-11-18 12:09:54,238 | INFO     | app.main | SOC workflow initialized (LLM enabled=False, PostgreSQL=True)
+2026-11-18 12:09:54,238 | INFO     | app.main | Adaptive Agentic Security Operations Centre v0.3.0 started
+2026-11-18 12:10:04,124 | INFO     | app.main | OPTIONS /api/v1/dashboard/summary -> 200 (3 ms)
+2026-11-18 12:10:04,131 | INFO     | app.main | OPTIONS /api/v1/dashboard/summary -> 200 (2 ms)
+2026-11-18 12:10:04,335 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (196 ms)
+2026-11-18 12:10:04,367 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (27 ms)
+2026-11-18 12:10:07,465 | INFO     | app.main | OPTIONS /api/v1/dataset/process -> 200 (1 ms)
+2026-11-18 12:10:08,148 | INFO     | app.dataset.loader | Loaded UNSW_NB15_training-set.csv (partitioned): 82332 rows x 45 cols
+2026-11-18 12:10:10,285 | INFO     | app.preprocessing.cleaner | Cleaned UNSW_NB15_training-set.csv: 82332 -> 82332 rows
+2026-11-18 12:10:10,456 | INFO     | app.preprocessing.pipeline | Processed 1 files: 82332 -> 82332 rows
+2026-11-18 12:10:11,345 | INFO     | app.main | POST /api/v1/dataset/process -> 200 (3876 ms)
+2026-11-18 12:10:11,359 | INFO     | app.main | OPTIONS /api/v1/alerts/generate -> 200 (1 ms)
+2026-11-18 12:10:11,622 | INFO     | app.alert_generation.generator | Generated 10 alerts (balanced sampling)
+2026-11-18 12:10:11,700 | INFO     | app.main | POST /api/v1/alerts/generate -> 200 (338 ms)
+2026-11-18 12:10:11,747 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (31 ms)
+2026-11-18 12:10:17,471 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000010/details -> 200 (2 ms)
+2026-11-18 12:10:17,489 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000010/details -> 200 (6 ms)
+2026-11-18 12:10:17,545 | INFO     | app.main | GET /api/v1/alerts/ALR-000010/details -> 200 (58 ms)
+2026-11-18 12:10:17,594 | INFO     | app.main | GET /api/v1/alerts/ALR-000010/details -> 200 (34 ms)
+2026-11-18 12:10:20,775 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (26 ms)
+2026-11-18 12:10:20,819 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (34 ms)
+2026-11-18 12:10:25,475 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000005/details -> 200 (1 ms)
+2026-11-18 12:10:25,487 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000005/details -> 200 (2 ms)
+2026-11-18 12:10:25,522 | INFO     | app.main | GET /api/v1/alerts/ALR-000005/details -> 200 (30 ms)
+2026-11-18 12:10:25,575 | INFO     | app.main | GET /api/v1/alerts/ALR-000005/details -> 200 (40 ms)
+2026-11-18 12:10:30,928 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (21 ms)
+2026-11-18 12:10:30,953 | INFO     | app.main | GET /api/v1/dashboard/summary -> 200 (19 ms)
+2026-11-18 12:10:45,414 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (1 ms)
+2026-11-18 12:10:45,421 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (1 ms)
+2026-11-18 12:10:45,555 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (132 ms)
+2026-11-18 12:10:45,645 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (90 ms)
+2026-11-18 12:10:48,445 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000006/details -> 200 (2 ms)
+2026-11-18 12:10:48,452 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000006/details -> 200 (5 ms)
+2026-11-18 12:10:48,468 | INFO     | app.main | GET /api/v1/alerts/ALR-000006/details -> 200 (14 ms)
+2026-11-18 12:10:48,492 | INFO     | app.main | GET /api/v1/alerts/ALR-000006/details -> 200 (15 ms)
+2026-11-18 12:10:50,275 | INFO     | app.main | OPTIONS /api/v1/soc/analyze/ALR-000006 -> 200 (0 ms)
+2026-11-18 12:10:58,897 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-18 12:10:59,160 | INFO     | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-11-18 12:10:59,686 | INFO     | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-18 12:11:00,563 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-18 12:11:00,617 | INFO     | app.main | POST /api/v1/soc/analyze/ALR-000006 -> 200 (10339 ms)
+2026-11-18 12:11:00,635 | INFO     | app.main | GET /api/v1/alerts/ALR-000006/details -> 200 (8 ms)
+2026-11-18 12:20:16,325 | INFO     | app.storage.dataset_store | Restored processed dataset (82332 rows) from disk
+2026-11-18 12:20:16,375 | INFO     | app.storage.alert_repository | Restored 10 alerts from disk
+2026-11-18 12:20:16,549 | INFO     | app.main | SOC workflow initialized (LLM enabled=False, PostgreSQL=True)
+2026-11-18 12:20:16,553 | INFO     | app.main | Adaptive Agentic Security Operations Centre v0.3.0 started
+2026-11-18 12:20:17,125 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (241 ms)
+2026-11-18 12:20:17,229 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (93 ms)
+2026-11-18 12:20:21,852 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000007/details -> 200 (1 ms)
+2026-11-18 12:20:21,855 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000007/details -> 200 (1 ms)
+2026-11-18 12:20:21,885 | INFO     | app.main | GET /api/v1/alerts/ALR-000007/details -> 200 (28 ms)
+2026-11-18 12:20:21,915 | INFO     | app.main | GET /api/v1/alerts/ALR-000007/details -> 200 (20 ms)
+2026-11-18 12:20:26,831 | INFO     | app.main | OPTIONS /api/v1/soc/analyze/ALR-000007 -> 200 (1 ms)
+2026-11-18 12:20:32,355 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-18 12:20:34,977 | INFO     | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2026-11-18 12:20:36,555 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-18 12:20:36,625 | INFO     | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-11-18 12:20:37,718 | INFO     | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-18 12:20:39,126 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-18 12:20:39,175 | INFO     | app.main | POST /api/v1/soc/analyze/ALR-000007 -> 200 (12340 ms)
+2026-11-18 12:20:39,207 | INFO     | app.main | GET /api/v1/alerts/ALR-000007/details -> 200 (8 ms)
+2026-11-18 12:21:13,949 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (1 ms)
+2026-11-18 12:21:13,949 | INFO     | app.main | OPTIONS /api/v1/dashboard/alerts -> 200 (2 ms)
+2026-11-18 12:21:14,039 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (87 ms)
+2026-11-18 12:21:14,155 | INFO     | app.main | GET /api/v1/dashboard/alerts -> 200 (106 ms)
+2026-11-18 12:21:16,687 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000009/details -> 200 (1 ms)
+2026-11-18 12:21:16,695 | INFO     | app.main | OPTIONS /api/v1/alerts/ALR-000009/details -> 200 (4 ms)
+2026-11-18 12:21:16,715 | INFO     | app.main | GET /api/v1/alerts/ALR-000009/details -> 200 (18 ms)
+2026-11-18 12:21:16,737 | INFO     | app.main | GET /api/v1/alerts/ALR-000009/details -> 200 (15 ms)
+2026-11-18 12:21:18,019 | INFO     | app.main | OPTIONS /api/v1/soc/analyze/ALR-000009 -> 200 (1 ms)
+2026-11-18 12:21:21,005 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-18 12:21:22,115 | INFO     | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2026-11-18 12:21:24,315 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-18 12:21:24,478 | INFO     | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-11-18 12:21:24,915 | INFO     | httpx2 | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-18 12:21:24,978 | INFO     | httpx2 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-18 12:21:25,068 | INFO     | app.main | POST /api/v1/soc/analyze/ALR-000009 -> 200 (7044 ms)
+2026-11-18 12:21:25,094 | INFO     | app.main | GET /api/v1/alerts/ALR-000009/details -> 200 (15 ms)
